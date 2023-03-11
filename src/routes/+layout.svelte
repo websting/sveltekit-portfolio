@@ -7,7 +7,7 @@
 
 <style>
     :global(body){
-        background-image: url"('/gradient.jpg')";
+        background-image: url"('../gradient.jpg')";
         color: lightgrey;
         background-size: cover;
         background-repeat: no-repeat;
