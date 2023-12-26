@@ -5,9 +5,6 @@
 </script>
 
 <main class="container">
-  <video autoplay loop muted class="back-video">
-    <source src="starsbackground.mp4" />
-  </video>
   <h1 class="slide-left">{name}</h1>
   <h2 class="slide-left">{title}</h2>
   <p class="slide-left">{content}</p>
