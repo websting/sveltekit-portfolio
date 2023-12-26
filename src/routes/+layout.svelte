@@ -15,4 +15,13 @@
     height: 100vh;
     background-attachment: fixed;
   }
+  :global(body) {
+    background-image: url(gradient.jpg);
+    color: lightgrey;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+  }
 </style>
