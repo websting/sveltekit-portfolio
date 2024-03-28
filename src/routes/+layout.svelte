@@ -7,7 +7,7 @@
 
 <style>
   :global(body) {
-    background-image: url('static\gradient.jpg');
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../gradient.jpg);
     color: lightgrey;
     background-size: cover;
     background-repeat: no-repeat;
