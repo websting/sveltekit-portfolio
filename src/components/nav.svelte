@@ -3,7 +3,7 @@
     const about = '/about'
     const work = '/work'
     const contact = '/contact'
-    const blog = 'https://sveltekit-blog-api.vercel.app/posts'
+    const blog = 'https://aherrerablog.netlify.app/'
 </script>
 
 <main class="container">

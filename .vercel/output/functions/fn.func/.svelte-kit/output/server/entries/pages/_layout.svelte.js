@@ -8,7 +8,7 @@ const home = "/";
 const about = "/about";
 const work = "/work";
 const contact = "/contact";
-const blog = "https://sveltekit-blog-api.vercel.app/posts";
+const blog = "https://aherrerablog.netlify.app/";
 const Nav = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css$1);
   return `<main class="container"><div id="side-nav" class="sidenav svelte-18wda2g"><a${add_attribute("href", home, 0)} id="home" class="svelte-18wda2g">Home</a>

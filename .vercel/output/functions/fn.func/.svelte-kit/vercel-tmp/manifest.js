@@ -1,45 +1,51 @@
-export const manifest = {
+export const manifest = (() => {
+function __memo(fn) {
+	let value;
+	return () => value ??= (value = fn());
+}
+
+return {
 	appDir: "_app",
 	appPath: "_app",
-	assets: new Set(["blogapi.png","djangorest.png","employeeot.png","gradient.jpg","list.png","portrait.JPG","shoppinglist.png"]),
+	assets: new Set(["blog.png","djangorest.png","gradient.jpg","list2.png","overtime2.png","portrait.JPG"]),
 	mimeTypes: {".png":"image/png",".jpg":"image/jpeg",".JPG":"image/jpeg"},
 	_: {
-		client: {"start":{"file":"_app/immutable/entry/start.2e265e59.js","imports":["_app/immutable/entry/start.2e265e59.js","_app/immutable/chunks/index.419ba70f.js","_app/immutable/chunks/singletons.7b197858.js"],"stylesheets":[],"fonts":[]},"app":{"file":"_app/immutable/entry/app.c2060200.js","imports":["_app/immutable/entry/app.c2060200.js","_app/immutable/chunks/index.419ba70f.js"],"stylesheets":[],"fonts":[]}},
+		client: {"start":"_app/immutable/entry/start.98d97203.js","app":"_app/immutable/entry/app.2ee31edd.js","imports":["_app/immutable/entry/start.98d97203.js","_app/immutable/chunks/index.419ba70f.js","_app/immutable/chunks/singletons.b3e09283.js","_app/immutable/entry/app.2ee31edd.js","_app/immutable/chunks/index.419ba70f.js"],"stylesheets":[],"fonts":[]},
 		nodes: [
-			() => import('../output/server/nodes/0.js'),
-			() => import('../output/server/nodes/1.js'),
-			() => import('../output/server/nodes/2.js'),
-			() => import('../output/server/nodes/3.js'),
-			() => import('../output/server/nodes/4.js'),
-			() => import('../output/server/nodes/5.js')
+			__memo(() => import('../output/server/nodes/0.js')),
+			__memo(() => import('../output/server/nodes/1.js')),
+			__memo(() => import('../output/server/nodes/2.js')),
+			__memo(() => import('../output/server/nodes/3.js')),
+			__memo(() => import('../output/server/nodes/4.js')),
+			__memo(() => import('../output/server/nodes/5.js'))
 		],
 		routes: [
 			{
 				id: "/",
 				pattern: /^\/$/,
 				params: [],
-				page: { layouts: [0], errors: [1], leaf: 2 },
+				page: { layouts: [0,], errors: [1,], leaf: 2 },
 				endpoint: null
 			},
 			{
 				id: "/about",
 				pattern: /^\/about\/?$/,
 				params: [],
-				page: { layouts: [0], errors: [1], leaf: 3 },
+				page: { layouts: [0,], errors: [1,], leaf: 3 },
 				endpoint: null
 			},
 			{
 				id: "/contact",
 				pattern: /^\/contact\/?$/,
 				params: [],
-				page: { layouts: [0], errors: [1], leaf: 4 },
+				page: { layouts: [0,], errors: [1,], leaf: 4 },
 				endpoint: null
 			},
 			{
 				id: "/work",
 				pattern: /^\/work\/?$/,
 				params: [],
-				page: { layouts: [0], errors: [1], leaf: 5 },
+				page: { layouts: [0,], errors: [1,], leaf: 5 },
 				endpoint: null
 			}
 		],
@@ -48,4 +54,5 @@ export const manifest = {
 			return {  };
 		}
 	}
-};
+}
+})();

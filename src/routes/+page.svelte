@@ -44,6 +44,7 @@
     opacity: 0;
   }
   p {
+    width: 30px;
     color: #fff;
     font-family: "Michroma", sans-serif;
     opacity: 0;

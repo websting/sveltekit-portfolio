@@ -1,7 +1,7 @@
 export const images = [
   {
     name: "JavaScript - Vue",
-    url: "employeeot.png",
+    url: "overtime2.png",
     keyword: "vue",
     descr: "Employee overtime app",
     link: "https://employeeovertimeapi.web.app/",
@@ -9,22 +9,22 @@ export const images = [
 
   {
     name: "JavaScript - React",
-    url: "list.png",
+    url: "list2.png",
     keyword: "react",
     descr: "Simple shooping list app",
     link: "https://ahlist.netlify.app/",
   },
 
   {
-    name: "JavaScript - Sveltekit",
-    url: "blogapi.png",
-    keyword: "sveltekit",
-    descr: "Portal for web dev newbies",
-    link: "https://sveltekit-blog-api.vercel.app/",
+    name: "JavaScript - React",
+    url: "blog.png",
+    keyword: "react",
+    descr: "Web development blogs",
+    link: "https://aherrerablog.netlify.app/",
   },
 
   {
-    name: "Django - REST framework",
+    name: "Django - rest framework",
     url: "djangorest.png",
     keyword: "django",
     descr: "24/7 API",
