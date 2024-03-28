@@ -21,7 +21,7 @@
 
     <div class="row">
       <div class="col-sm-6">
-        <img src="portrait.JPG" alt="portrait" width="70%" />
+        <img src="../portrait.JPG" alt="portrait" width="70%" />
       </div>
       <div class="col-sm-6">
         <p class="paragraph">
