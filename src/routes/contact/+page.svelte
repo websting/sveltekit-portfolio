@@ -58,6 +58,14 @@
     padding: 35px;
     text-align: justify;
   }
+  .form-control{
+    background-color: whitesmoke;
+  }
+
+  .form-label{
+    color: whitesmoke;
+    font-weight: 100;
+  }
 
   h3 {
     text-align: center;
@@ -69,5 +77,7 @@
 
   p {
     text-align: center;
+    color: whitesmoke;
+    font-weight:100;
   }
 </style>

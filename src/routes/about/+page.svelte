@@ -101,8 +101,8 @@
     margin-right: auto;
     font-family: "Tinos", serif;
     font-size: medium;
-    color: #fff;
-    font-weight: lighter;
+    color: whitesmoke;
+    font-weight:100;
   }
 
   img {
